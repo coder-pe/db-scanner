@@ -1,0 +1,1943 @@
+miguel@penguin:~/Laboratory/cpp/db-scanner$ ./build/src/app/dbscanner --config config/scanner.json 
+[17:26:32] [info] starting scan of schema 'CORTEXPCI_UAT' with 4 worker thread(s)
+[17:27:29] [error] discovery failed for table 245473_CRDACC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 1/642 245473_CRDACC[17:27:29] [error] discovery failed for table ACCBALSLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 2/642 ACCBALSLOG[17:27:30] [error] discovery failed for table ACCCONTRA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 3/642 ACCCONTRA[17:27:30] [error] discovery failed for table 245473_ACCDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 4/642 245473_ACCDET[17:27:31] [error] discovery failed for table ACCDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 5/642 ACCDET[17:27:32] [error] discovery failed for table ACCDET12: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 6/642 ACCDET12[17:27:32] [error] discovery failed for table ACCDET1227: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 7/642 ACCDET1227[17:27:33] [error] discovery failed for table ACCDETCON: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 8/642 ACCDETCON[17:27:34] [error] discovery failed for table ACCDETCA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 9/642 ACCDETCA[17:27:35] [error] discovery failed for table ACCDET_0422: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 10/642 ACCDET_0422[17:27:35] [error] discovery failed for table 245473_CRDDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 11/642 245473_CRDDET[17:27:36] [error] discovery failed for table ACCDET_131221: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 12/642 ACCDET_131221[17:27:36] [error] discovery failed for table ACCDET_2: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 13/642 ACCDET_2[17:27:37] [error] discovery failed for table ACCDET_2021126: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 14/642 ACCDET_2021126[17:27:37] [error] discovery failed for table ACCDET_212570: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 15/642 ACCDET_212570[17:27:38] [error] discovery failed for table ACCDET_212570PRUE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 16/642 ACCDET_212570PRUE[17:27:38] [error] discovery failed for table ACCDET_212570_PR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 17/642 ACCDET_212570_PR[17:27:39] [error] discovery failed for table ACCDET_237484: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 18/642 ACCDET_237484[17:27:39] [error] discovery failed for table ACCDET_7778: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 19/642 ACCDET_7778[17:27:40] [error] discovery failed for table ACCDET_CUSOATM07082023: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 20/642 ACCDET_CUSOATM07082023[17:27:40] [error] discovery failed for table ACCDET_CUSOATM10072023: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 21/642 ACCDET_CUSOATM10072023[17:27:41] [error] discovery failed for table ACCDET_NERI: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 22/642 ACCDET_NERI[17:27:41] [error] discovery failed for table ACCDET_CUSOATM13122024: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 23/642 ACCDET_CUSOATM13122024[17:27:41] [error] discovery failed for table ACCDET_ERRORCONSTRAIN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 24/642 ACCDET_ERRORCONSTRAIN[17:27:42] [error] discovery failed for table ACCDET_SFB: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 25/642 ACCDET_SFB[17:27:42] [error] discovery failed for table ACCDET_LUISA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 26/642 ACCDET_LUISA[17:27:42] [error] discovery failed for table ACCDET_SFB_DUPLECATE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 27/642 ACCDET_SFB_DUPLECATE[17:27:43] [error] discovery failed for table ACCDET_SFB_DUPLECATE_INAC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 28/642 ACCDET_SFB_DUPLECATE_INAC[17:27:43] [error] discovery failed for table ACCDET_SFB_DUPLICATE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 29/642 ACCDET_SFB_DUPLICATE[17:27:43] [error] discovery failed for table ACCDET_PRO21: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 30/642 ACCDET_PRO21[17:27:43] [error] discovery failed for table ACCDET_SCRIPT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 31/642 ACCDET_SCRIPT[17:27:44] [error] discovery failed for table ACCDET_X: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 32/642 ACCDET_X[17:27:44] [error] discovery failed for table ACCEVENT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 33/642 ACCEVENT[17:27:44] [error] discovery failed for table ACCITEMS_CHRGLNK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 34/642 ACCITEMS_CHRGLNK[17:27:45] [error] discovery failed for table ACCLIMIT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 35/642 ACCLIMIT[17:27:46] [error] discovery failed for table ACCSTATUS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 36/642 ACCSTATUS[17:27:46] [error] discovery failed for table ACCSTATUSD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 37/642 ACCSTATUSD[17:27:47] [error] discovery failed for table ACCITEMS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 38/642 ACCITEMS[17:27:47] [error] discovery failed for table ACCLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 39/642 ACCLOG[17:27:47] [error] discovery failed for table ACCTYPELIM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 40/642 ACCTYPELIM[17:27:48] [error] discovery failed for table ACCTYPE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 41/642 ACCTYPE[17:27:48] [error] discovery failed for table ACSITEM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 42/642 ACSITEM[17:27:48] [error] discovery failed for table ACSITEM_BK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 43/642 ACSITEM_BK[17:27:48] [error] discovery failed for table ACSITEM_BK_HL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 44/642 ACSITEM_BK_HL[17:27:49] [error] discovery failed for table ACTIVITY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 45/642 ACTIVITY[17:27:49] [error] discovery failed for table ACSLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 46/642 ACSLOG[17:27:49] [error] discovery failed for table ACSLOG_RITM0048449: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 47/642 ACSLOG_RITM0048449[17:27:50] [error] discovery failed for table ADDITIONALS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 48/642 ADDITIONALS[17:27:50] [error] discovery failed for table ACT_LOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 49/642 ACT_LOG[17:27:50] [error] discovery failed for table ACTLIM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 50/642 ACTLIM[17:27:50] [error] discovery failed for table ACT_PROC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 51/642 ACT_PROC[17:27:51] [error] discovery failed for table ADDITPROC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 52/642 ADDITPROC[17:27:51] [error] discovery failed for table ADVICES: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 53/642 ADVICES[17:27:51] [error] discovery failed for table AGGR_AGG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 54/642 AGGR_AGG[17:27:51] [error] discovery failed for table ADDROVER: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 55/642 ADDROVER[17:27:52] [error] discovery failed for table AGGR_DEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 56/642 AGGR_DEF[17:27:52] [error] discovery failed for table ALLOWCHECK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 57/642 ALLOWCHECK[17:27:52] [error] discovery failed for table ALLOWCOND: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 58/642 ALLOWCOND[17:27:52] [error] discovery failed for table ALLOWCRDPROD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 59/642 ALLOWCRDPROD[17:27:52] [error] discovery failed for table ALLOWSET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 60/642 ALLOWSET[17:27:52] [error] discovery failed for table ALOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 61/642 ALOG[17:27:53] [error] discovery failed for table ALOG_FIS_190329: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 62/642 ALOG_FIS_190329[17:27:53] [error] discovery failed for table ALTROUTE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 63/642 ALTROUTE[17:27:54] [error] discovery failed for table AMXBTCHEXC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 64/642 AMXBTCHEXC[17:27:54] [error] discovery failed for table ANUALPRO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 65/642 ANUALPRO[17:27:55] [error] discovery failed for table AMXSEDEMO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 66/642 AMXSEDEMO[17:27:55] [error] discovery failed for table ANUALSQL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 67/642 ANUALSQL[17:27:56] [error] discovery failed for table AMXFRDREP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 68/642 AMXFRDREP[17:27:57] [error] discovery failed for table AMXATMREC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 69/642 AMXATMREC[17:27:58] [error] discovery failed for table APRVLCODE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 70/642 APRVLCODE[17:27:58] [error] discovery failed for table APRVLCODE_RITM0048449: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 71/642 APRVLCODE_RITM0048449[17:27:59] [error] discovery failed for table APRVLCODE_SINPAN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 72/642 APRVLCODE_SINPAN[17:28:00] [error] discovery failed for table APRVLHIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 73/642 APRVLHIST[17:28:01] [error] discovery failed for table ATMADLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 74/642 ATMADLOG[17:28:01] [error] discovery failed for table ARDEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 75/642 ARDEF[17:28:01] [error] discovery failed for table ATMADRPLN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 76/642 ATMADRPLN[17:28:02] [error] discovery failed for table APRVLHIST_RITM0048449: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 77/642 APRVLHIST_RITM0048449[17:28:02] [error] discovery failed for table ATMBIN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 78/642 ATMBIN[17:28:02] [error] discovery failed for table ATMBTCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 79/642 ATMBTCH[17:28:02] [error] discovery failed for table ATMAID: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 80/642 ATMAID[17:28:03] [error] discovery failed for table ATMDEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 81/642 ATMDEF[17:28:03] [error] discovery failed for table ATMDRUM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 82/642 ATMDRUM[17:28:04] [error] discovery failed for table ATMKEY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 83/642 ATMKEY[17:28:04] [error] discovery failed for table ATMNOTEBIN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 84/642 ATMNOTEBIN[17:28:05] [error] discovery failed for table ATMCNF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 85/642 ATMCNF[17:28:05] [error] discovery failed for table ATMNOTECFG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 86/642 ATMNOTECFG[17:28:05] [error] discovery failed for table ATMNOTEID: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 87/642 ATMNOTEID[17:28:05] [error] discovery failed for table ATMNOTEBINRP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 88/642 ATMNOTEBINRP[17:28:06] [error] discovery failed for table ATMFIT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 89/642 ATMFIT[17:28:06] [error] discovery failed for table ATMSCREEN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 90/642 ATMSCREEN[17:28:06] [error] discovery failed for table ATMRPLNCNT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 91/642 ATMRPLNCNT[17:28:07] [error] discovery failed for table ATMSTAFMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 92/642 ATMSTAFMT[17:28:07] [error] discovery failed for table ATMRPLN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 93/642 ATMRPLN[17:28:08] [error] discovery failed for table ATMSTAT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 94/642 ATMSTAT[17:28:08] [error] discovery failed for table ATMSTATE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 95/642 ATMSTATE[17:28:08] [error] discovery failed for table ATMSVCHST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 96/642 ATMSVCHST[17:28:08] [error] discovery failed for table AUDIT_DEPOSITOS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 97/642 AUDIT_DEPOSITOS[17:28:08] [error] discovery failed for table ATMTNID: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 98/642 ATMTNID[17:28:08] [error] discovery failed for table AUDIT_POS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 99/642 AUDIT_POS[17:28:09] [error] discovery failed for table AUDIT_RETIRO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 100/642 AUDIT_RETIRO[17:28:09] [error] discovery failed for table AUDIT_ITEM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 101/642 AUDIT_ITEM[17:28:10] [error] discovery failed for table AUTHCHECKREF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 102/642 AUTHCHECKREF[17:28:10] [error] discovery failed for table AUTHCHECK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 103/642 AUTHCHECK[17:28:10] [error] discovery failed for table AUDIT_TYPEDEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 104/642 AUDIT_TYPEDEF[17:28:10] [error] discovery failed for table AUTHCOND: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 105/642 AUTHCOND[17:28:11] [error] discovery failed for table AUTHFINRECON: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 106/642 AUTHFINRECON[17:28:11] [error] discovery failed for table AUTHOVER: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 107/642 AUTHOVER[17:28:11] [error] discovery failed for table AUTHDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 108/642 AUTHDET[17:28:11] [error] discovery failed for table AUTHOVERLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 109/642 AUTHOVERLOG[17:28:11] [error] discovery failed for table BAK_NOTIFYDEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 110/642 BAK_NOTIFYDEF[17:28:12] [error] discovery failed for table BAK_NOTIFYFLDS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 111/642 BAK_NOTIFYFLDS[17:28:12] [error] discovery failed for table BALIMP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 112/642 BALIMP[17:28:13] [error] discovery failed for table BARCODE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 113/642 BARCODE[17:28:13] [error] discovery failed for table BARCODE_CONTEXT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 114/642 BARCODE_CONTEXT[17:28:14] [error] discovery failed for table BALUPDERR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 115/642 BALUPDERR[17:28:14] [error] discovery failed for table BARCODE_REF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 116/642 BARCODE_REF[17:28:14] [error] discovery failed for table BALUPDLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 117/642 BALUPDLOG[17:28:15] [error] discovery failed for table BATCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 118/642 BATCH[17:28:15] [error] discovery failed for table BATCH_080720: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 119/642 BATCH_080720[17:28:15] [error] discovery failed for table BATCH_181220: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 120/642 BATCH_181220[17:28:15] [error] discovery failed for table BATCH_2022: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 121/642 BATCH_2022[17:28:16] [error] discovery failed for table BINFEC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 122/642 BINFEC[17:28:16] [error] discovery failed for table BATCH_24062020: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 123/642 BATCH_24062020[17:28:17] [error] discovery failed for table BATCH_7778: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 124/642 BATCH_7778[17:28:17] [error] discovery failed for table BATCH_BK24062020: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 125/642 BATCH_BK24062020[17:28:17] [error] discovery failed for table BIN_RANGE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 126/642 BIN_RANGE[17:28:18] [error] discovery failed for table BITACORA_ATM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 127/642 BITACORA_ATM[17:28:18] [error] discovery failed for table BRANCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 128/642 BRANCH[17:28:19] [error] discovery failed for table BRANCH_080720: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 129/642 BRANCH_080720[17:28:19] [error] discovery failed for table BRANCH_CRDBTCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 130/642 BRANCH_CRDBTCH[17:28:19] [error] discovery failed for table BRANCH_7778: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 131/642 BRANCH_7778[17:28:20] [error] discovery failed for table BRETKNTRANSTAT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 132/642 BRETKNTRANSTAT[17:28:20] [error] discovery failed for table BRETKNTRANSTAT_BK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 133/642 BRETKNTRANSTAT_BK[17:28:20] [error] discovery failed for table BRANCH_ERRORCONSTRAIN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 134/642 BRANCH_ERRORCONSTRAIN[17:28:21] [error] discovery failed for table BRETKNWEBSERV: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 135/642 BRETKNWEBSERV[17:28:21] [error] discovery failed for table BRE_CUST_CRDSTATUSTRANS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 136/642 BRE_CUST_CRDSTATUSTRANS[17:28:21] [error] discovery failed for table BRE_CUST_CRDSTATUSTRANSSET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 137/642 BRE_CUST_CRDSTATUSTRANSSET[17:28:21] [error] discovery failed for table BRNMRCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 138/642 BRNMRCH[17:28:21] [error] discovery failed for table BUSQUEDA_NERI: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 139/642 BUSQUEDA_NERI[17:28:22] [error] discovery failed for table BRETKNWEBSERV_NJS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 140/642 BRETKNWEBSERV_NJS[17:28:23] [error] discovery failed for table CACCDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 141/642 CACCDET[17:28:23] [error] discovery failed for table CACOPN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 142/642 CACOPN[17:28:23] [error] discovery failed for table CALENDAR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 143/642 CALENDAR[17:28:23] [error] discovery failed for table CACENT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 144/642 CACENT[17:28:24] [error] discovery failed for table CALLCENTER: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 145/642 CALLCENTER[17:28:24] [error] discovery failed for table CATDESCR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 146/642 CATDESCR[17:28:24] [error] discovery failed for table CARDLESS_BONO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 147/642 CARDLESS_BONO[17:28:24] [error] discovery failed for table CAT_ACCTMRKUP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 148/642 CAT_ACCTMRKUP[17:28:25] [error] discovery failed for table CAT_ACCTRISK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 149/642 CAT_ACCTRISK[17:28:25] [error] discovery failed for table CAT_CRDISS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 150/642 CAT_CRDISS[17:28:25] [error] discovery failed for table CAT_ACQRISK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 151/642 CAT_ACQRISK[17:28:25] [error] discovery failed for table CAT_CUSTSEG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 152/642 CAT_CUSTSEG[17:28:25] [error] discovery failed for table CAT_ISSCOMM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 153/642 CAT_ISSCOMM[17:28:26] [error] discovery failed for table CAT_ISSCYCFEE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 154/642 CAT_ISSCYCFEE[17:28:26] [error] discovery failed for table CAT_ISSFEE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 155/642 CAT_ISSFEE[17:28:26] [error] discovery failed for table CAT_ISSRISK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 156/642 CAT_ISSRISK[17:28:26] [error] discovery failed for table CAT_ISSRISKCNTRL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 157/642 CAT_ISSRISKCNTRL[17:28:27] [error] discovery failed for table CCAPPLADD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 158/642 CCAPPLADD[17:28:29] [error] discovery failed for table CCSACCEVENT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 159/642 CCSACCEVENT[17:28:31] [error] discovery failed for table CCAPPL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 160/642 CCAPPL[17:28:33] [error] discovery failed for table CCSAPPRULE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 161/642 CCSAPPRULE[17:28:33] [error] discovery failed for table CCSACCDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 162/642 CCSACCDET[17:28:34] [error] discovery failed for table CCSBKITEM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 163/642 CCSBKITEM[17:28:34] [error] discovery failed for table CCSACCDETSNP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 164/642 CCSACCDETSNP[17:28:34] [error] discovery failed for table CCSBKITEMCFG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 165/642 CCSBKITEMCFG[17:28:34] [error] discovery failed for table CCSACCPOSITION: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 166/642 CCSACCPOSITION[17:28:35] [error] discovery failed for table CCSCMPDESCR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 167/642 CCSCMPDESCR[17:28:35] [error] discovery failed for table CCSCORPACCREL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 168/642 CCSCORPACCREL[17:28:35] [error] discovery failed for table CCSCMPDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 169/642 CCSCMPDET[17:28:36] [error] discovery failed for table CCSCHRGPROF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 170/642 CCSCHRGPROF[17:28:36] [error] discovery failed for table CCSCRSP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 171/642 CCSCRSP[17:28:37] [error] discovery failed for table CCSCRITEMLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 172/642 CCSCRITEMLOG[17:28:37] [error] discovery failed for table CCSCYCLE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 173/642 CCSCYCLE[17:28:38] [error] discovery failed for table CCSDDREQAMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 174/642 CCSDDREQAMT[17:28:38] [error] discovery failed for table CCSDDRULE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 175/642 CCSDDRULE[17:28:38] [error] discovery failed for table CCSDLNQDATE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 176/642 CCSDLNQDATE[17:28:39] [error] discovery failed for table CCSDLNQPROF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 177/642 CCSDLNQPROF[17:28:40] [error] discovery failed for table CCSDBPRIO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 178/642 CCSDBPRIO[17:28:41] [error] discovery failed for table CCSDUEAGEDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 179/642 CCSDUEAGEDET[17:28:42] [error] discovery failed for table CCSDUEAGEDETSNP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 180/642 CCSDUEAGEDETSNP[17:28:43] [error] discovery failed for table CCSDUEAGECMP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 181/642 CCSDUEAGECMP[17:28:43] [error] discovery failed for table CCSDUEAGECMPSNP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 182/642 CCSDUEAGECMPSNP[17:28:43] [error] discovery failed for table CCSEVENTTYPE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 183/642 CCSEVENTTYPE[17:28:44] [error] discovery failed for table CCSDUECMP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 184/642 CCSDUECMP[17:28:44] [error] discovery failed for table CCSFEESET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 185/642 CCSFEESET[17:28:44] [error] discovery failed for table CCSFEE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 186/642 CCSFEE[17:28:45] [error] discovery failed for table CCSDUECMPSNP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 187/642 CCSDUECMPSNP[17:28:45] [error] discovery failed for table CCSITEMREVHIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 188/642 CCSITEMREVHIST[17:28:45] [error] discovery failed for table CCSITEMREF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 189/642 CCSITEMREF[17:28:46] [error] discovery failed for table CCSMSG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 190/642 CCSMSG[17:28:46] [error] discovery failed for table CCSMSC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 191/642 CCSMSC[17:28:47] [error] discovery failed for table CCSMSGTYPE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 192/642 CCSMSGTYPE[17:28:48] [error] discovery failed for table CCSMVLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 193/642 CCSMVLOG[17:28:48] [error] discovery failed for table CCSMINPYHIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 194/642 CCSMINPYHIST[17:28:48] [error] discovery failed for table CCSITEM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 195/642 CCSITEM[17:28:49] [error] discovery failed for table CCSNXTSCHEME: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 196/642 CCSNXTSCHEME[17:28:49] [error] discovery failed for table CCSPPITEM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 197/642 CCSPPITEM[17:28:50] [error] discovery failed for table CCSNOTDUECMP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 198/642 CCSNOTDUECMP[17:28:50] [error] discovery failed for table CCSNOTDUECMPSNP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 199/642 CCSNOTDUECMPSNP[17:28:51] [error] discovery failed for table CCSPPSET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 200/642 CCSPPSET[17:28:51] [error] discovery failed for table CCSPPPROG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 201/642 CCSPPPROG[17:28:51] [error] discovery failed for table CCSPPSETAMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 202/642 CCSPPSETAMT[17:28:52] [error] discovery failed for table CCSPPSETNUMINST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 203/642 CCSPPSETNUMINST[17:28:52] [error] discovery failed for table CCSPAYPLAN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 204/642 CCSPAYPLAN[17:28:52] [error] discovery failed for table CCSPPSETRATE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 205/642 CCSPPSETRATE[17:28:52] [error] discovery failed for table CCSRECONSTATS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 206/642 CCSRECONSTATS[17:28:53] [error] discovery failed for table CCSSCHEMEMIG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 207/642 CCSSCHEMEMIG[17:28:53] [error] discovery failed for table CCSSTMTPRNT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 208/642 CCSSTMTPRNT[17:28:53] [error] discovery failed for table CCSSYSBAL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 209/642 CCSSYSBAL[17:28:54] [error] discovery failed for table CCSTMPLIMEXT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 210/642 CCSTMPLIMEXT[17:28:54] [error] discovery failed for table CCSSCHEME: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 211/642 CCSSCHEME[17:28:55] [error] discovery failed for table CCYCLE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 212/642 CCYCLE[17:28:55] [error] discovery failed for table CCSUPLOAD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 213/642 CCSUPLOAD[17:28:55] [error] discovery failed for table CCSSTATEMENT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 214/642 CCSSTATEMENT[17:28:55] [error] discovery failed for table CCSTMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 215/642 CCSTMT[17:28:56] [error] discovery failed for table CDSTHST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 216/642 CDSTHST[17:28:56] [error] discovery failed for table CHARGEDATA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 217/642 CHARGEDATA[17:28:57] [error] discovery failed for table CERTIFICATE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 218/642 CERTIFICATE[17:28:57] [error] discovery failed for table CLMAGFMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 219/642 CLMAGFMT[17:28:58] [error] discovery failed for table CLNDRDATE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 220/642 CLNDRDATE[17:28:58] [error] discovery failed for table CLNDRTYPE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 221/642 CLNDRTYPE[17:28:58] [error] discovery failed for table CHARGELOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 222/642 CHARGELOG[17:28:59] [error] discovery failed for table COMMENTS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 223/642 COMMENTS[17:28:59] [error] discovery failed for table CORPCRDLNK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 224/642 CORPCRDLNK[17:28:59] [error] discovery failed for table CHARGELOG_2022: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 225/642 CHARGELOG_2022[17:29:00] [error] discovery failed for table CO_BIN_IN_CTXT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 226/642 CO_BIN_IN_CTXT[17:29:00] [error] discovery failed for table COUNTRY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 227/642 COUNTRY[17:29:00] [error] discovery failed for table CO_CONTEXT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 228/642 CO_CONTEXT[17:29:01] [error] discovery failed for table CO_EXE_NAME: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 229/642 CO_EXE_NAME[17:29:01] [error] discovery failed for table CO_EXE_IN_CTXT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 230/642 CO_EXE_IN_CTXT[17:29:01] [error] discovery failed for table CO_SERVICE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 231/642 CO_SERVICE[17:29:01] [error] discovery failed for table CO_SVC_IN_CTXT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 232/642 CO_SVC_IN_CTXT[17:29:02] [error] discovery failed for table CRDACC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 233/642 CRDACC[17:29:02] [error] discovery failed for table CP_JOB: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 234/642 CP_JOB[17:29:02] [error] discovery failed for table CRDACCCA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 235/642 CRDACCCA[17:29:03] [error] discovery failed for table CRDACCROLE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 236/642 CRDACCROLE[17:29:03] [error] discovery failed for table CORTEXPCI_UAT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 237/642 CORTEXPCI_UAT[17:29:03] [error] discovery failed for table CRDACCUPL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 238/642 CRDACCUPL[17:29:03] [error] discovery failed for table CRDACCUPL_2: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 239/642 CRDACCUPL_2[17:29:04] [error] discovery failed for table CRDACC_0422: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 240/642 CRDACC_0422[17:29:04] [error] discovery failed for table CRDACC_2: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 241/642 CRDACC_2[17:29:04] [error] discovery failed for table CRDACC_CUSOATM07082023: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 242/642 CRDACC_CUSOATM07082023[17:29:04] [error] discovery failed for table CRDACC_CUSOATM10072023: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 243/642 CRDACC_CUSOATM10072023[17:29:05] [error] discovery failed for table CRDACC_CUSOATM13122024: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 244/642 CRDACC_CUSOATM13122024[17:29:05] [error] discovery failed for table CRDAUTHOVER: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 245/642 CRDAUTHOVER[17:29:05] [error] discovery failed for table CRDBTCHRECON: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 246/642 CRDBTCHRECON[17:29:06] [error] discovery failed for table CRDDESIGN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 247/642 CRDDESIGN[17:29:06] [error] discovery failed for table CRDBTCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 248/642 CRDBTCH[17:29:07] [error] discovery failed for table CRDDETADDINFO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 249/642 CRDDETADDINFO[17:29:08] [error] discovery failed for table CRDDETMISC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 250/642 CRDDETMISC[17:29:12] [error] discovery failed for table CRDDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 251/642 CRDDET[17:29:13] [error] discovery failed for table CRDDET12: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 252/642 CRDDET12[17:29:13] [error] discovery failed for table CRDDET2: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 253/642 CRDDET2[17:29:15] [error] discovery failed for table CRDDET_0422: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 254/642 CRDDET_0422[17:29:20] [error] discovery failed for table CRDDET_13032026: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 255/642 CRDDET_13032026[17:29:20] [error] discovery failed for table CRDDET_2025FEB24: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 256/642 CRDDET_2025FEB24[17:29:21] [error] discovery failed for table CRDDET_CUSOATM07082023: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 257/642 CRDDET_CUSOATM07082023[17:29:23] [error] discovery failed for table CRDDET_CUSOATM10072023: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 258/642 CRDDET_CUSOATM10072023[17:29:23] [error] discovery failed for table CRDDET_PANHST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 259/642 CRDDET_PANHST[17:29:24] [error] discovery failed for table CRDDET_PANHST_TEST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 260/642 CRDDET_PANHST_TEST[17:29:27] [error] discovery failed for table CRDDET_CUSOATM13122024: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 261/642 CRDDET_CUSOATM13122024[17:29:27] [error] discovery failed for table CRDDET_LMK_USO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 262/642 CRDDET_LMK_USO[17:29:27] [error] discovery failed for table CRDDET_ORA19C: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 263/642 CRDDET_ORA19C[17:29:28] [error] discovery failed for table CRDEVENT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 264/642 CRDEVENT[17:29:29] [error] discovery failed for table CRDDET_X: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 265/642 CRDDET_X[17:29:29] [error] discovery failed for table CRDEVENT_ACTLNK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 266/642 CRDEVENT_ACTLNK[17:29:30] [error] discovery failed for table CRDEVENT_DATALOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 267/642 CRDEVENT_DATALOG[17:29:30] [error] discovery failed for table CRDEVENT_EXTAUTH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 268/642 CRDEVENT_EXTAUTH[17:29:31] [error] discovery failed for table CRDDET_RITM0048449: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 269/642 CRDDET_RITM0048449[17:29:31] [error] discovery failed for table CRDEVENT_PINTYP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 270/642 CRDEVENT_PINTYP[17:29:31] [error] discovery failed for table CRDEVENT_USRLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 271/642 CRDEVENT_USRLOG[17:29:31] [error] discovery failed for table CRDEV_STHSTLK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 272/642 CRDEV_STHSTLK[17:29:32] [error] discovery failed for table CRDEV_STHSTLK_ABU: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 273/642 CRDEV_STHSTLK_ABU[17:29:33] [error] discovery failed for table CRDLIMIT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 274/642 CRDLIMIT[17:29:33] [error] discovery failed for table CRDLIMOVER: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 275/642 CRDLIMOVER[17:29:34] [error] discovery failed for table CRDDET_SCRIPT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 276/642 CRDDET_SCRIPT[17:29:34] [error] discovery failed for table CRDNOTIFY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 277/642 CRDNOTIFY[17:29:34] [error] discovery failed for table CRDFORMAT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 278/642 CRDFORMAT[17:29:34] [error] discovery failed for table CRDNUMRAND: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 279/642 CRDNUMRAND[17:29:35] [error] discovery failed for table CRDMRCHB: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 280/642 CRDMRCHB[17:29:35] [error] discovery failed for table CRDPIN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 281/642 CRDPIN[17:29:35] [error] discovery failed for table CRDPRODCURR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 282/642 CRDPRODCURR[17:29:36] [error] discovery failed for table CRDPIN_2025FEB02: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 283/642 CRDPIN_2025FEB02[17:29:36] [error] discovery failed for table CRDPRODMIG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 284/642 CRDPRODMIG[17:29:36] [error] discovery failed for table CRDPRODPINTYP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 285/642 CRDPRODPINTYP[17:29:36] [error] discovery failed for table CRDPRODLIM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 286/642 CRDPRODLIM[17:29:37] [error] discovery failed for table CRDPRODUCTD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 287/642 CRDPRODUCTD[17:29:37] [error] discovery failed for table CRDPROGRAM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 288/642 CRDPROGRAM[17:29:38] [error] discovery failed for table CRDRPLACE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 289/642 CRDRPLACE[17:29:38] [error] discovery failed for table CRDSTATUS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 290/642 CRDSTATUS[17:29:39] [error] discovery failed for table CRDSTATUSD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 291/642 CRDSTATUSD[17:29:39] [error] discovery failed for table CRDROUTING: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 292/642 CRDROUTING[17:29:39] [error] discovery failed for table CRDSTATUSTRANS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 293/642 CRDSTATUSTRANS[17:29:40] [error] discovery failed for table CRDSTATUSTRANSSET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 294/642 CRDSTATUSTRANSSET[17:29:40] [error] discovery failed for table CRDSTMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 295/642 CRDSTMT[17:29:40] [error] discovery failed for table CRDPRODUCT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 296/642 CRDPRODUCT[17:29:40] [error] discovery failed for table CRDTELCODE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 297/642 CRDTELCODE[17:29:40] [error] discovery failed for table CRDSUPDOC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 298/642 CRDSUPDOC[17:29:41] [error] discovery failed for table CRDTELNOTE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 299/642 CRDTELNOTE[17:29:41] [error] discovery failed for table CRM_ID: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 300/642 CRM_ID[17:29:41] [error] discovery failed for table CRDTRACKFORMAT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 301/642 CRDTRACKFORMAT[17:29:42] [error] discovery failed for table CTXSTATEMENT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 302/642 CTXSTATEMENT[17:29:42] [error] discovery failed for table CRDVEL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 303/642 CRDVEL[17:29:43] [error] discovery failed for table CRUCE_TLOG_UPLOAD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 304/642 CRUCE_TLOG_UPLOAD[17:29:43] [error] discovery failed for table CURRENCY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 305/642 CURRENCY[17:29:43] [error] discovery failed for table CURRATE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 306/642 CURRATE[17:29:43] [error] discovery failed for table CUSTCRD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 307/642 CUSTCRD[17:29:44] [error] discovery failed for table CUSTIDCODE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 308/642 CUSTIDCODE[17:29:45] [error] discovery failed for table CUSTIDCODE_13032026: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 309/642 CUSTIDCODE_13032026[17:29:46] [error] discovery failed for table CUSTIDCODE_36287: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 310/642 CUSTIDCODE_36287[17:29:47] [error] discovery failed for table CUSTIDTYPE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 311/642 CUSTIDTYPE[17:29:47] [error] discovery failed for table CUSTDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 312/642 CUSTDET[17:29:47] [error] discovery failed for table CUSTDET_7778: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 313/642 CUSTDET_7778[17:29:47] [error] discovery failed for table CUSTDET_36287: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 314/642 CUSTDET_36287[17:29:47] [error] discovery failed for table CUSTLOGIN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 315/642 CUSTLOGIN[17:29:48] [error] discovery failed for table CYCLEDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 316/642 CYCLEDET[17:29:48] [error] discovery failed for table DCCBLK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 317/642 DCCBLK[17:29:48] [error] discovery failed for table DBAUDIT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 318/642 DBAUDIT[17:29:49] [error] discovery failed for table DATOS_SIGNATURE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 319/642 DATOS_SIGNATURE[17:29:49] [error] discovery failed for table DATE_DIM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 320/642 DATE_DIM[17:29:49] [error] discovery failed for table DESARROLLO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 321/642 DESARROLLO[17:29:49] [error] discovery failed for table DESCR_BK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 322/642 DESCR_BK[17:29:49] [error] discovery failed for table DESCR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 323/642 DESCR[17:29:50] [error] discovery failed for table DCC_CURR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 324/642 DCC_CURR[17:29:50] [error] discovery failed for table DES_CUSOATM07082023: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 325/642 DES_CUSOATM07082023[17:29:50] [error] discovery failed for table DVCEVDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 326/642 DVCEVDET[17:29:50] [error] discovery failed for table DVCEV: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 327/642 DVCEV[17:29:51] [error] discovery failed for table EMVCMDAUTO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 328/642 EMVCMDAUTO[17:29:51] [error] discovery failed for table EMVCMDSRC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 329/642 EMVCMDSRC[17:29:51] [error] discovery failed for table EMVCONF_AMX: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 330/642 EMVCONF_AMX[17:29:52] [error] discovery failed for table EMVCONF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 331/642 EMVCONF[17:29:52] [error] discovery failed for table EMVCMDLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 332/642 EMVCMDLOG[17:29:52] [error] discovery failed for table EMVCONF_VIS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 333/642 EMVCONF_VIS[17:29:53] [error] discovery failed for table EMVCRPTVER: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 334/642 EMVCRPTVER[17:29:53] [error] discovery failed for table EMVCONF_MC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 335/642 EMVCONF_MC[17:29:53] [error] discovery failed for table EMVFIELD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 336/642 EMVFIELD[17:29:53] [error] discovery failed for table EMVPROFILE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 337/642 EMVPROFILE[17:29:54] [error] discovery failed for table ENCKEY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 338/642 ENCKEY[17:29:54] [error] discovery failed for table ENCKEY_2025FEB02: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 339/642 ENCKEY_2025FEB02[17:29:54] [error] discovery failed for table ENCKEY_30OCT2025PREKB: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 340/642 ENCKEY_30OCT2025PREKB[17:29:55] [error] discovery failed for table ENCKEY_BAK20241022: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 341/642 ENCKEY_BAK20241022[17:29:55] [error] discovery failed for table ENCPRNFRMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 342/642 ENCPRNFRMT[17:29:56] [error] discovery failed for table ENVIADOS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 343/642 ENVIADOS[17:29:56] [error] discovery failed for table ENCKEY_BKERRORSQ2: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 344/642 ENCKEY_BKERRORSQ2[17:29:56] [error] discovery failed for table ENCKEY_KB: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 345/642 ENCKEY_KB[17:29:56] [error] discovery failed for table EVENTCAT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 346/642 EVENTCAT[17:29:56] [error] discovery failed for table EUROSTR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 347/642 EUROSTR[17:29:57] [error] discovery failed for table EPSTATS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 348/642 EPSTATS[17:29:57] [error] discovery failed for table EVLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 349/642 EVLOG[17:29:58] [error] discovery failed for table FBRULES: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 350/642 FBRULES[17:29:58] [error] discovery failed for table FC_CARDTYPECYCLE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 351/642 FC_CARDTYPECYCLE[17:29:58] [error] discovery failed for table FC_CARDTYPECYCLE_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 352/642 FC_CARDTYPECYCLE_HIST[17:29:59] [error] discovery failed for table FC_CHARGEDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 353/642 FC_CHARGEDET[17:29:59] [error] discovery failed for table FC_CHARGEDET_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 354/642 FC_CHARGEDET_HIST[17:29:59] [error] discovery failed for table FC_CHARGEDET_OVRD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 355/642 FC_CHARGEDET_OVRD[17:29:59] [error] discovery failed for table FDSHOST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 356/642 FDSHOST[17:29:59] [error] discovery failed for table FC_CHARGEDET_OVRD_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 357/642 FC_CHARGEDET_OVRD_HIST[17:30:00] [error] discovery failed for table FDSRULES: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 358/642 FDSRULES[17:30:01] [error] discovery failed for table FE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 359/642 FE[17:30:01] [error] discovery failed for table FEECALC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 360/642 FEECALC[17:30:01] [error] discovery failed for table FDSUPLOAD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 361/642 FDSUPLOAD[17:30:01] [error] discovery failed for table FILEIMPHIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 362/642 FILEIMPHIST[17:30:02] [error] discovery failed for table GENINFO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 363/642 GENINFO[17:30:02] [error] discovery failed for table GRPPERM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 364/642 GRPPERM[17:30:02] [error] discovery failed for table FOREX: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 365/642 FOREX[17:30:02] [error] discovery failed for table FOREX_820: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 366/642 FOREX_820[17:30:03] [error] discovery failed for table HOLIDAY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 367/642 HOLIDAY[17:30:03] [error] discovery failed for table HCPOSTXN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 368/642 HCPOSTXN[17:30:03] [error] discovery failed for table HOSTMONSTAT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 369/642 HOSTMONSTAT[17:30:04] [error] discovery failed for table HOUSEKEEP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 370/642 HOUSEKEEP[17:30:04] [error] discovery failed for table IFMCALENDAR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 371/642 IFMCALENDAR[17:30:04] [error] discovery failed for table HOSTDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 372/642 HOSTDET[17:30:04] [error] discovery failed for table IFMCTRYGROUP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 373/642 IFMCTRYGROUP[17:30:04] [error] discovery failed for table IFMCHECKS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 374/642 IFMCHECKS[17:30:05] [error] discovery failed for table IFMFE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 375/642 IFMFE[17:30:05] [error] discovery failed for table IFMDESCR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 376/642 IFMDESCR[17:30:05] [error] discovery failed for table IFMMCCGROUP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 377/642 IFMMCCGROUP[17:30:05] [error] discovery failed for table IFMEVENTS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 378/642 IFMEVENTS[17:30:06] [error] discovery failed for table IFMMRCHGROUP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 379/642 IFMMRCHGROUP[17:30:06] [error] discovery failed for table IFMPARAM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 380/642 IFMPARAM[17:30:06] [error] discovery failed for table IFMRG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 381/642 IFMRG[17:30:06] [error] discovery failed for table IFMRGCHECK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 382/642 IFMRGCHECK[17:30:06] [error] discovery failed for table IFMRGCRD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 383/642 IFMRGCRD[17:30:06] [error] discovery failed for table IFMRGCRDPROD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 384/642 IFMRGCRDPROD[17:30:07] [error] discovery failed for table IFMRPTFILTER: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 385/642 IFMRPTFILTER[17:30:07] [error] discovery failed for table IFMRPTRLIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 386/642 IFMRPTRLIST[17:30:07] [error] discovery failed for table IFMRULES: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 387/642 IFMRULES[17:30:08] [error] discovery failed for table INST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 388/642 INST[17:30:08] [error] discovery failed for table INSTSCHEME: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 389/642 INSTSCHEME[17:30:09] [error] discovery failed for table IMPORT_CTRL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 390/642 IMPORT_CTRL[17:30:09] [error] discovery failed for table INST_7778: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 391/642 INST_7778[17:30:10] [error] discovery failed for table ISSUERAPP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 392/642 ISSUERAPP[17:30:10] [error] discovery failed for table KEYBLKHDR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 393/642 KEYBLKHDR[17:30:11] [error] discovery failed for table KEYBLKHDR_2024OCT30PREKB: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 394/642 KEYBLKHDR_2024OCT30PREKB[17:30:11] [error] discovery failed for table LCG_RANDOM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 395/642 LCG_RANDOM[17:30:11] [error] discovery failed for table IFMTLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 396/642 IFMTLOG[17:30:11] [error] discovery failed for table LIMITES: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 397/642 LIMITES[17:30:12] [error] discovery failed for table LOADBAL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 398/642 LOADBAL[17:30:12] [error] discovery failed for table LOCALDEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 399/642 LOCALDEF[17:30:12] [error] discovery failed for table LOADBALDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 400/642 LOADBALDET[17:30:13] [error] discovery failed for table LOOKUPCAT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 401/642 LOOKUPCAT[17:30:13] [error] discovery failed for table LOOKUPDATA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 402/642 LOOKUPDATA[17:30:13] [error] discovery failed for table MACHEO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 403/642 MACHEO[17:30:13] [error] discovery failed for table LOOKUPTYPE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 404/642 LOOKUPTYPE[17:30:14] [error] discovery failed for table MCCGROUPS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 405/642 MCCGROUPS[17:30:14] [error] discovery failed for table MARKUPDEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 406/642 MARKUPDEF[17:30:14] [error] discovery failed for table MANMRCHBTCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 407/642 MANMRCHBTCH[17:30:15] [error] discovery failed for table MCCRANGE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 408/642 MCCRANGE[17:30:16] [error] discovery failed for table MCRDRATE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 409/642 MCRDRATE[17:30:17] [error] discovery failed for table MCRDMBR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 410/642 MCRDMBR[17:30:18] [error] discovery failed for table MEMBERFEE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 411/642 MEMBERFEE[17:30:19] [error] discovery failed for table MCRDBIN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 412/642 MCRDBIN[17:30:19] [error] discovery failed for table MENU: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 413/642 MENU[17:30:19] [error] discovery failed for table IN_DRAFT_MAIN2: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 414/642 IN_DRAFT_MAIN2[17:30:20] [error] discovery failed for table MENU_BKP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 415/642 MENU_BKP[17:30:20] [error] discovery failed for table MENU_BK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 416/642 MENU_BK[17:30:20] [error] discovery failed for table MONHSTST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 417/642 MONHSTST[17:30:21] [error] discovery failed for table MONRSPST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 418/642 MONRSPST[17:30:22] [error] discovery failed for table MCRDREC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 419/642 MCRDREC[17:30:22] [error] discovery failed for table MONTRSFR_CUST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 420/642 MONTRSFR_CUST[17:30:23] [error] discovery failed for table MOVIMIENTOSSGN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 421/642 MOVIMIENTOSSGN[17:30:23] [error] discovery failed for table MONTXNST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 422/642 MONTXNST[17:30:23] [error] discovery failed for table MINISTMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 423/642 MINISTMT[17:30:24] [error] discovery failed for table MRCHACC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 424/642 MRCHACC[17:30:24] [error] discovery failed for table MRCHACCENT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 425/642 MRCHACCENT[17:30:25] [error] discovery failed for table MERCHANT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 426/642 MERCHANT[17:30:25] [error] discovery failed for table MRCHACCITM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 427/642 MRCHACCITM[17:30:25] [error] discovery failed for table MRCHACCOPN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 428/642 MRCHACCOPN[17:30:26] [error] discovery failed for table MRCHDRCR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 429/642 MRCHDRCR[17:30:26] [error] discovery failed for table MRCHMON: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 430/642 MRCHMON[17:30:26] [error] discovery failed for table MRCHMONTOT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 431/642 MRCHMONTOT[17:30:26] [error] discovery failed for table MRCHPPSET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 432/642 MRCHPPSET[17:30:27] [error] discovery failed for table MRCHMTD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 433/642 MRCHMTD[17:30:27] [error] discovery failed for table MRCHPRODUCT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 434/642 MRCHPRODUCT[17:30:27] [error] discovery failed for table MRCHSCHDEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 435/642 MRCHSCHDEF[17:30:27] [error] discovery failed for table MRCHSCHEMEVI: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 436/642 MRCHSCHEMEVI[17:30:28] [error] discovery failed for table MRCHSCHEME: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 437/642 MRCHSCHEME[17:30:28] [error] discovery failed for table MRCHSTMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 438/642 MRCHSTMT[17:30:28] [error] discovery failed for table MRCHTERM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 439/642 MRCHTERM[17:30:28] [error] discovery failed for table MRCHTAX: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 440/642 MRCHTAX[17:30:29] [error] discovery failed for table MSC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 441/642 MSC[17:30:29] [error] discovery failed for table NOTEMIXW: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 442/642 NOTEMIXW[17:30:29] [error] discovery failed for table NOTIFYDEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 443/642 NOTIFYDEF[17:30:30] [error] discovery failed for table NOTIFMSG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 444/642 NOTIFMSG[17:30:30] [error] discovery failed for table NOTIFYLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 445/642 NOTIFYLOG[17:30:30] [error] discovery failed for table NOTIFYFLDS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 446/642 NOTIFYFLDS[17:30:30] [error] discovery failed for table NOTIFYLOG_TLOG_LINK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 447/642 NOTIFYLOG_TLOG_LINK[17:30:31] [error] discovery failed for table OFFICIAL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 448/642 OFFICIAL[17:30:31] [error] discovery failed for table NUMDESCR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 449/642 NUMDESCR[17:30:31] [error] discovery failed for table NOTIFYMSGLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 450/642 NOTIFYMSGLOG[17:30:31] [error] discovery failed for table PANENC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 451/642 PANENC[17:30:31] [error] discovery failed for table OUTBATCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 452/642 OUTBATCH[17:30:32] [error] discovery failed for table PANMAP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 453/642 PANMAP[17:30:32] [error] discovery failed for table PINSTATUS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 454/642 PINSTATUS[17:30:32] [error] discovery failed for table PLUSROUTE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 455/642 PLUSROUTE[17:30:32] [error] discovery failed for table PINSTHST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 456/642 PINSTHST[17:30:33] [error] discovery failed for table POSDEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 457/642 POSDEF[17:30:33] [error] discovery failed for table POSINSTLMNT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 458/642 POSINSTLMNT[17:30:34] [error] discovery failed for table POSMRCHBTCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 459/642 POSMRCHBTCH[17:30:34] [error] discovery failed for table POSPREAUTH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 460/642 POSPREAUTH[17:30:34] [error] discovery failed for table POSNONREC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 461/642 POSNONREC[17:30:34] [error] discovery failed for table POSSCHED: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 462/642 POSSCHED[17:30:35] [error] discovery failed for table PRM_CFGNM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 463/642 PRM_CFGNM[17:30:36] [error] discovery failed for table PRM_CFG_ENTITY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 464/642 PRM_CFG_ENTITY[17:30:36] [error] discovery failed for table PREAUTHBLK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 465/642 PREAUTHBLK[17:30:36] [error] discovery failed for table PREGENPIN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 466/642 PREGENPIN[17:30:36] [error] discovery failed for table PRM_CONTEXT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 467/642 PRM_CONTEXT[17:30:36] [error] discovery failed for table PRM_DEFP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 468/642 PRM_DEFP[17:30:37] [error] discovery failed for table PRM_DEF: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 469/642 PRM_DEF[17:30:37] [error] discovery failed for table PRM_DEFT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 470/642 PRM_DEFT[17:30:37] [error] discovery failed for table PRM_DEFR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 471/642 PRM_DEFR[17:30:37] [error] discovery failed for table PRM_ELEMS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 472/642 PRM_ELEMS[17:30:38] [error] discovery failed for table PRM_ELEMR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 473/642 PRM_ELEMR[17:30:38] [error] discovery failed for table PRM_DFLTVAL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 474/642 PRM_DFLTVAL[17:30:38] [error] discovery failed for table PRM_ELEM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 475/642 PRM_ELEM[17:30:38] [error] discovery failed for table PRM_ELEMST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 476/642 PRM_ELEMST[17:30:38] [error] discovery failed for table PRM_RULET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 477/642 PRM_RULET[17:30:39] [error] discovery failed for table PRM_ENTITY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 478/642 PRM_ENTITY[17:30:39] [error] discovery failed for table PRM_STRUCTNM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 479/642 PRM_STRUCTNM[17:30:39] [error] discovery failed for table PRM_VALST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 480/642 PRM_VALST[17:30:39] [error] discovery failed for table PRM_VALS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 481/642 PRM_VALS[17:30:39] [error] discovery failed for table PRM_VALT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 482/642 PRM_VALT[17:30:40] [error] discovery failed for table PRM_VALUE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 483/642 PRM_VALUE[17:30:40] [error] discovery failed for table PRODUCCION: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 484/642 PRODUCCION[17:30:40] [error] discovery failed for table PRNTTXNLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 485/642 PRNTTXNLOG[17:30:40] [error] discovery failed for table PRO_CUSOATM07082023: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 486/642 PRO_CUSOATM07082023[17:30:40] [error] discovery failed for table PRT_CM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 487/642 PRT_CM[17:30:41] [error] discovery failed for table PRTSEL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 488/642 PRTSEL[17:30:41] [error] discovery failed for table PRT_CMPT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 489/642 PRT_CMPT[17:30:41] [error] discovery failed for table PRT_CML: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 490/642 PRT_CML[17:30:41] [error] discovery failed for table PRT_CMT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 491/642 PRT_CMT[17:30:41] [error] discovery failed for table PRT_CM_E_ADDR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 492/642 PRT_CM_E_ADDR[17:30:42] [error] discovery failed for table PRT_CM_TELCO_NO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 493/642 PRT_CM_TELCO_NO[17:30:42] [error] discovery failed for table PRT_PARTY_7778: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 494/642 PRT_PARTY_7778[17:30:42] [error] discovery failed for table PRT_PARTY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 495/642 PRT_PARTY[17:30:42] [error] discovery failed for table PRT_CM_P_ADDR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 496/642 PRT_CM_P_ADDR[17:30:43] [error] discovery failed for table PRT_PCM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 497/642 PRT_PCM[17:30:43] [error] discovery failed for table PRT_PCMP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 498/642 PRT_PCMP[17:30:43] [error] discovery failed for table PRT_PCMP_MEDIA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 499/642 PRT_PCMP_MEDIA[17:30:43] [error] discovery failed for table PRT_PERSON: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 500/642 PRT_PERSON[17:30:44] [error] discovery failed for table PRT_PERSON_237484: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 501/642 PRT_PERSON_237484[17:30:44] [error] discovery failed for table PRT_PERSON_7778: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 502/642 PRT_PERSON_7778[17:30:44] [error] discovery failed for table PRT_PRT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 503/642 PRT_PRT[17:30:44] [error] discovery failed for table PRUEBA_BINATH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 504/642 PRUEBA_BINATH[17:30:44] [error] discovery failed for table PURGED_ENTITY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 505/642 PURGED_ENTITY[17:30:44] [error] discovery failed for table PWDHIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 506/642 PWDHIST[17:30:45] [error] discovery failed for table QDATA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 507/642 QDATA[17:30:45] [error] discovery failed for table RECURTXN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 508/642 RECURTXN[17:30:46] [error] discovery failed for table RECURINFO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 509/642 RECURINFO[17:30:46] [error] discovery failed for table QINFO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 510/642 QINFO[17:30:46] [error] discovery failed for table REJIMPTXN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 511/642 REJIMPTXN[17:30:46] [error] discovery failed for table REPORT_DOWNLOAD_CFG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 512/642 REPORT_DOWNLOAD_CFG[17:30:46] [error] discovery failed for table RESPONSE_CODE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 513/642 RESPONSE_CODE[17:30:46] [error] discovery failed for table REJIMPTXN_RITM0048449: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 514/642 REJIMPTXN_RITM0048449[17:30:47] [error] discovery failed for table RE_ATTR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 515/642 RE_ATTR[17:30:47] [error] discovery failed for table RE_CONTEXT_TYPE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 516/642 RE_CONTEXT_TYPE[17:30:47] [error] discovery failed for table RE_CONTEXT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 517/642 RE_CONTEXT[17:30:47] [error] discovery failed for table RE_EXPR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 518/642 RE_EXPR[17:30:48] [error] discovery failed for table RISKPROFILE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 519/642 RISKPROFILE[17:30:48] [error] discovery failed for table RSASIG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 520/642 RSASIG[17:30:48] [error] discovery failed for table RULE_ATOM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 521/642 RULE_ATOM[17:30:49] [error] discovery failed for table RSAKEY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 522/642 RSAKEY[17:30:49] [error] discovery failed for table RULE_ATOM_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 523/642 RULE_ATOM_HIST[17:30:49] [error] discovery failed for table RULE_CONTEXT_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 524/642 RULE_CONTEXT_HIST[17:30:49] [error] discovery failed for table RULE_CONTEXT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 525/642 RULE_CONTEXT[17:30:49] [error] discovery failed for table RULE_CONTEXT_SCOPEDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 526/642 RULE_CONTEXT_SCOPEDET[17:30:50] [error] discovery failed for table RULE_DIMENSION: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 527/642 RULE_DIMENSION[17:30:50] [error] discovery failed for table RULE_DIMLVLLINK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 528/642 RULE_DIMLVLLINK[17:30:50] [error] discovery failed for table RULE_DIMLVLLINK_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 529/642 RULE_DIMLVLLINK_HIST[17:30:50] [error] discovery failed for table RULE_DIMVALUE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 530/642 RULE_DIMVALUE[17:30:51] [error] discovery failed for table RULE_DIMVALUE_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 531/642 RULE_DIMVALUE_HIST[17:30:51] [error] discovery failed for table RULE_DIMVAL_SCOPEKEY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 532/642 RULE_DIMVAL_SCOPEKEY[17:30:51] [error] discovery failed for table RULE_EVALDIMLINK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 533/642 RULE_EVALDIMLINK[17:30:51] [error] discovery failed for table RULE_DIMVAL_SCOPEKEY_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 534/642 RULE_DIMVAL_SCOPEKEY_HIST[17:30:52] [error] discovery failed for table RULE_EVALRULELINK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 535/642 RULE_EVALRULELINK[17:30:52] [error] discovery failed for table RULE_EVALDIMLINK_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 536/642 RULE_EVALDIMLINK_HIST[17:30:52] [error] discovery failed for table RULE_EVALRULELINK_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 537/642 RULE_EVALRULELINK_HIST[17:30:53] [error] discovery failed for table RULE_RULE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 538/642 RULE_RULE[17:30:53] [error] discovery failed for table RULE_EVALSET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 539/642 RULE_EVALSET[17:30:53] [error] discovery failed for table RULE_RULE_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 540/642 RULE_RULE_HIST[17:30:53] [error] discovery failed for table SCHEME: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 541/642 SCHEME[17:30:53] [error] discovery failed for table RULE_EVALSET_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 542/642 RULE_EVALSET_HIST[17:30:54] [error] discovery failed for table SCOPEDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 543/642 SCOPEDET[17:30:54] [error] discovery failed for table SCREENFIELD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 544/642 SCREENFIELD[17:30:54] [error] discovery failed for table STAN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 545/642 STAN[17:30:54] [error] discovery failed for table STATCHGPERM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 546/642 STATCHGPERM[17:30:55] [error] discovery failed for table STMT_FORMAT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 547/642 STMT_FORMAT[17:30:55] [error] discovery failed for table STRDESCR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 548/642 STRDESCR[17:30:55] [error] discovery failed for table SUPVCRD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 549/642 SUPVCRD[17:30:55] [error] discovery failed for table STMT_ITEM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 550/642 STMT_ITEM[17:30:56] [error] discovery failed for table TABLE1: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 551/642 TABLE1[17:30:56] [error] discovery failed for table TANQUE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 552/642 TANQUE[17:30:56] [error] discovery failed for table SWITCHFEE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 553/642 SWITCHFEE[17:30:56] [error] discovery failed for table TARJETAS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 554/642 TARJETAS[17:30:57] [error] discovery failed for table SWRECTOTS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 555/642 SWRECTOTS[17:30:57] [error] discovery failed for table TARJETAPROD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 556/642 TARJETAPROD[17:30:57] [error] discovery failed for table TASK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 557/642 TASK[17:30:57] [error] discovery failed for table TAX: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 558/642 TAX[17:30:57] [error] discovery failed for table TCOUNTS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 559/642 TCOUNTS[17:30:58] [error] discovery failed for table TCBINFEC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 560/642 TCBINFEC[17:30:58] [error] discovery failed for table TEMP_ACSITEM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 561/642 TEMP_ACSITEM[17:30:58] [error] discovery failed for table TEMP_DESCR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 562/642 TEMP_DESCR[17:30:58] [error] discovery failed for table TEMP_MENU: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 563/642 TEMP_MENU[17:30:59] [error] discovery failed for table TEMP_QDATA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 564/642 TEMP_QDATA[17:31:00] [error] discovery failed for table THRESHOLD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 565/642 THRESHOLD[17:31:00] [error] discovery failed for table TERMPOS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 566/642 TERMPOS[17:31:00] [error] discovery failed for table THRESHOLD_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 567/642 THRESHOLD_HIST[17:31:01] [error] discovery failed for table THRESHOLD_OVRD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 568/642 THRESHOLD_OVRD[17:31:01] [error] discovery failed for table THRESHOLD_SET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 569/642 THRESHOLD_SET[17:31:02] [error] discovery failed for table THRESHOLD_OVRD_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 570/642 THRESHOLD_OVRD_HIST[17:31:02] [error] discovery failed for table THRESHOLD_SET_HIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 571/642 THRESHOLD_SET_HIST[17:31:03] [error] discovery failed for table TKNGENMSGCONTENT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 572/642 TKNGENMSGCONTENT[17:31:04] [error] discovery failed for table TKNCMDUREQLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 573/642 TKNCMDUREQLOG[17:31:04] [error] discovery failed for table TKNCMDURSPLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 574/642 TKNCMDURSPLOG[17:31:04] [error] discovery failed for table TKNGENMSGLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 575/642 TKNGENMSGLOG[17:31:05] [error] discovery failed for table TKNOTP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 576/642 TKNOTP[17:31:05] [error] discovery failed for table TKNPROVSTATUSHIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 577/642 TKNPROVSTATUSHIST[17:31:06] [error] discovery failed for table TKNRSPAMLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 578/642 TKNRSPAMLOG[17:31:06] [error] discovery failed for table TKNROUTING: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 579/642 TKNROUTING[17:31:06] [error] discovery failed for table TERMATM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 580/642 TERMATM[17:31:07] [error] discovery failed for table TKNRSPERRLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 581/642 TKNRSPERRLOG[17:31:07] [error] discovery failed for table TKNRSPUPDLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 582/642 TKNRSPUPDLOG[17:31:07] [error] discovery failed for table TKNSTATUSHIST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 583/642 TKNSTATUSHIST[17:31:07] [error] discovery failed for table TKNRSPLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 584/642 TKNRSPLOG[17:31:08] [error] discovery failed for table TKNTXNREQOBS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 585/642 TKNTXNREQOBS[17:31:08] [error] discovery failed for table TKNTXNRSPLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 586/642 TKNTXNRSPLOG[17:31:09] [error] discovery failed for table TK_PROV_LOG_MESSAGE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 587/642 TK_PROV_LOG_MESSAGE[17:31:09] [error] discovery failed for table TLIMITS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 588/642 TLIMITS[17:31:10] [error] discovery failed for table TKNREQLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 589/642 TKNREQLOG[17:31:10] [error] discovery failed for table TLOGERR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 590/642 TLOGERR[17:31:10] [error] discovery failed for table TLOGERR_13032026: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 591/642 TLOGERR_13032026[17:31:11] [error] discovery failed for table TKNTXNREQLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 592/642 TKNTXNREQLOG[17:31:11] [error] discovery failed for table TLOGEXPORT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 593/642 TLOGEXPORT[17:31:11] [error] discovery failed for table TLOGEXTRACTLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 594/642 TLOGEXTRACTLOG[17:31:11] [error] discovery failed for table TLOGLNK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 595/642 TLOGLNK[17:31:12] [error] discovery failed for table TLOGLNKTXN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 596/642 TLOGLNKTXN[17:31:13] [error] discovery failed for table TLOG_BLOQUEO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 597/642 TLOG_BLOQUEO[17:31:14] [error] discovery failed for table TLOGSTATISTIC: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 598/642 TLOGSTATISTIC[17:31:20] [error] discovery failed for table TLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 599/642 TLOG[17:31:23] [error] discovery failed for table TLOG_181220: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 600/642 TLOG_181220[17:31:24] [error] discovery failed for table TLOG_MIGRATION_LOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 601/642 TLOG_MIGRATION_LOG[17:31:25] [error] discovery failed for table TLOG_CONCURSO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 602/642 TLOG_CONCURSO[17:31:25] [error] discovery failed for table TLOG_DEPURACION: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 603/642 TLOG_DEPURACION[17:31:26] [error] discovery failed for table TOPUPDUMP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 604/642 TOPUPDUMP[17:31:28] [error] discovery failed for table TOPUPLOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 605/642 TOPUPLOG[17:31:29] [error] discovery failed for table TOPUPROUTING: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 606/642 TOPUPROUTING[17:31:29] [error] discovery failed for table TOKEN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 607/642 TOKEN[17:31:30] [error] discovery failed for table TOPUPSUMM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 608/642 TOPUPSUMM[17:31:31] [error] discovery failed for table TU_COMPANY: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 609/642 TU_COMPANY[17:31:31] [error] discovery failed for table TU_PAYMENT_ITEM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 610/642 TU_PAYMENT_ITEM[17:31:32] [error] discovery failed for table TU_PAYMENT_TYPE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 611/642 TU_PAYMENT_TYPE[17:31:32] [error] discovery failed for table TLOG_DEPURACION2: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 612/642 TLOG_DEPURACION2[17:31:32] [error] discovery failed for table TU_PRODUCT: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 613/642 TU_PRODUCT[17:31:34] [error] discovery failed for table UPLOAD: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 614/642 UPLOAD[17:31:34] [error] discovery failed for table UPLOAD_3337523119: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 615/642 UPLOAD_3337523119[17:31:35] [error] discovery failed for table UPLOAD_BKP_DUP_HASH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 616/642 UPLOAD_BKP_DUP_HASH[17:31:35] [error] discovery failed for table TLOG_RITM0048449: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 617/642 TLOG_RITM0048449[17:31:36] [error] discovery failed for table UPLOAD_BKP_DUP_ID: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 618/642 UPLOAD_BKP_DUP_ID[17:31:37] [error] discovery failed for table UPLOAD_PRO_RBK_20260303_093015: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 619/642 UPLOAD_PRO_RBK_20260303_093015[17:31:37] [error] discovery failed for table USRGRP: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 620/642 USRGRP[17:31:37] [error] discovery failed for table USR: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 621/642 USR[17:31:37] [error] discovery failed for table UPLOAD_PRO_RBK_20260303_100013: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 622/642 UPLOAD_PRO_RBK_20260303_100013[17:31:37] [error] discovery failed for table USRGRP_BK: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 623/642 USRGRP_BK[17:31:37] [error] discovery failed for table USRINST: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 624/642 USRINST[17:31:38] [error] discovery failed for table USR_BRANCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 625/642 USR_BRANCH[17:31:38] [error] discovery failed for table USRPERM: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 626/642 USRPERM[17:31:38] [error] discovery failed for table VIRAWDATA: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 627/642 VIRAWDATA[17:31:39] [error] discovery failed for table VISABIN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 628/642 VISABIN[17:31:39] [error] discovery failed for table VIEXPFILE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 629/642 VIEXPFILE[17:31:39] [error] discovery failed for table VISACRDBILL: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 630/642 VISACRDBILL[17:31:40] [error] discovery failed for table VISAROUTE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 631/642 VISAROUTE[17:31:40] [error] discovery failed for table VISAPVV: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 632/642 VISAPVV[17:31:41] [error] discovery failed for table VIDSPTXN: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 633/642 VIDSPTXN[17:31:41] [error] discovery failed for table VPANDET: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 634/642 VPANDET[17:31:41] [error] discovery failed for table VISATXTMSG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 635/642 VISATXTMSG[17:31:41] [error] discovery failed for table VPAN_BATCH: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 636/642 VPAN_BATCH[17:31:41] [error] discovery failed for table VPAN_SEQNO: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 637/642 VPAN_SEQNO[17:31:42] [error] discovery failed for table VPAN_STATUS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 638/642 VPAN_STATUS[17:31:42] [error] discovery failed for table VPAN_PROFILE: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 639/642 VPAN_PROFILE[17:31:43] [error] discovery failed for table VRECTOTS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 640/642 VRECTOTS[17:31:43] [error] discovery failed for table VXFRTOTS: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 641/642 VXFRTOTS[17:31:44] [error] discovery failed for table WULOG: ORA-00932: inconsistent datatypes: expected CHAR got LONG
+Help: https://docs.oracle.com/error-help/db/ora-00932/
+
+[discovery] 642/642 WULOG
+
+
+==================== db-scanner summary ====================
+Schema owner            : CORTEXPCI_UAT
+Status                  : Completed
+Tables scanned          : 0
+Relationships (declared): 0
+Relationships (inferred): 0
+Dependency cycles found : 0
+Relationships checked   : 0
+Relationships w/orphans : 0
+Total orphan rows found : 0
+==============================================================
+miguel@penguin:~/Laboratory/cpp/db-scanner$

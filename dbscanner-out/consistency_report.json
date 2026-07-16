@@ -1,0 +1,12 @@
+{
+  "dependencyCycles": [],
+  "findings": [],
+  "schemaOwner": "CORTEXPCI_UAT",
+  "status": "Completed",
+  "summary": {
+    "dependencyCyclesFound": 0,
+    "relationshipsChecked": 0,
+    "relationshipsWithOrphans": 0,
+    "totalOrphanRows": 0
+  }
+}

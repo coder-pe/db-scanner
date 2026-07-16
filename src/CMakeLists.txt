@@ -1,0 +1,12 @@
+add_subdirectory(core)
+add_subdirectory(config)
+add_subdirectory(logging)
+add_subdirectory(checkpoint)
+add_subdirectory(relations)
+add_subdirectory(report)
+add_subdirectory(db)
+add_subdirectory(engine)
+
+if(DBSCANNER_ORACLE_AVAILABLE)
+    add_subdirectory(app)
+endif()

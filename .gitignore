@@ -1,0 +1,12 @@
+build/
+build-*/
+.claude/
+*.o
+*.obj
+*.log
+compile_commands.json
+.cache/
+.vscode/
+.idea/
+*.db
+!config/*.example.json
