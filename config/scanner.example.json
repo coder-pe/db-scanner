@@ -1,7 +1,7 @@
 {
-  "connectString": "10.181.2.122:1521/PCTX19.SNDB.VCNDEV.ORACLEVCN.COM",
-  "username": "cortexpci_uat",
-  "schemaOwner": "cortexpci_uat",
+  "connectString": "127.0.0.1:1521/SIRVICE_NAME",
+  "username": "username",
+  "schemaOwner": "pass",
   "outputDir": "dbscanner-out",
   "threads": 4,
   "logLevel": "info",
