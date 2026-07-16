@@ -1,7 +1,9 @@
 #include "db/OracleSchemaReader.hpp"
 
 #include <algorithm>
+#include <cstring>
 #include <map>
+#include <optional>
 
 #include <spdlog/spdlog.h>
 
@@ -52,34 +54,104 @@ std::vector<core::Column> fetchColumns(Connection* conn, const std::string& owne
     return columns;
 }
 
+// Four prior attempts at reading ALL_TAB_COLUMNS.DATA_DEFAULT directly all
+// failed the same way (ORA-00932 / ORA-32108), with or without SUBSTR(), with
+// or without bind variables. Confirmed via sqlplus that the plain query
+// against DATA_DEFAULT works fine outside OCCI, isolating this to how OCCI
+// itself handles a LONG column (most likely: LONG is incompatible with
+// OCCI's default row prefetching). Rather than keep fighting LONG's client
+// library restrictions, default values are read from the table's DDL text
+// instead -- DBMS_METADATA.GET_DDL returns a CLOB, which has none of LONG's
+// restrictions (binds, WHERE clauses, prefetch all work normally on it).
+//
+// The DDL is parsed with a small heuristic text scanner, not a real SQL
+// parser: for each already-known column name (from fetchColumns), find its
+// quoted declaration in the DDL, take the text up to that column
+// definition's closing comma/paren (paren-depth aware, so DEFAULT expressions
+// containing commas aren't cut short), and pull out anything after a
+// "DEFAULT" keyword. This is best-effort -- parsing failures just leave that
+// column's defaultValue unset, they never fail the table scan.
+std::string readClobAsString(Clob& clob) {
+    clob.open(OCCI_LOB_READONLY);
+    std::string content;
+    const int length = clob.length();
+    if (length > 0) {
+        content.resize(static_cast<std::size_t>(length));
+        Stream* stream = clob.getStream();
+        stream->readBuffer(&content[0], length);
+        clob.closeStream(stream);
+    }
+    clob.close();
+    return content;
+}
+
+std::optional<std::string> extractColumnDefault(const std::string& ddl, const std::string& columnName) {
+    const std::string needle = "\"" + columnName + "\"";
+    const std::size_t nameEnd = ddl.find(needle);
+    if (nameEnd == std::string::npos) return std::nullopt;
+
+    std::size_t i = nameEnd + needle.size();
+    int depth = 0;
+    for (; i < ddl.size(); ++i) {
+        const char c = ddl[i];
+        if (c == '(') {
+            ++depth;
+        } else if (c == ')') {
+            if (depth == 0) break;  // closing paren of the column list itself
+            --depth;
+        } else if (c == ',' && depth == 0) {
+            break;
+        }
+    }
+    const std::string columnDef = ddl.substr(nameEnd + needle.size(), i - (nameEnd + needle.size()));
+
+    // Find " DEFAULT " as a whole word, case-insensitively.
+    auto toUpper = [](std::string s) {
+        std::transform(s.begin(), s.end(), s.begin(), [](unsigned char c) { return std::toupper(c); });
+        return s;
+    };
+    const std::string upperDef = toUpper(columnDef);
+    const std::size_t defaultPos = upperDef.find(" DEFAULT ");
+    if (defaultPos == std::string::npos) return std::nullopt;
+
+    std::string value = columnDef.substr(defaultPos + std::string(" DEFAULT ").size());
+
+    // Strip a trailing " NOT NULL" / " NULL" column-constraint if present.
+    const std::string upperValue = toUpper(value);
+    for (const char* suffix : {" NOT NULL", " NULL"}) {
+        const std::size_t suffixLen = std::strlen(suffix);
+        const std::size_t pos = upperValue.rfind(suffix);
+        if (pos != std::string::npos && pos + suffixLen == upperValue.size()) {
+            value = value.substr(0, pos);
+            break;
+        }
+    }
+
+    // Trim whitespace.
+    const std::size_t begin = value.find_first_not_of(" \t\n\r");
+    if (begin == std::string::npos) return std::nullopt;
+    const std::size_t end = value.find_last_not_of(" \t\n\r");
+    value = value.substr(begin, end - begin + 1);
+
+    if (value.empty()) return std::nullopt;
+    if (value.size() > 4000) value.resize(4000);
+    return value;
+}
+
 void fetchDefaultValues(Connection* conn, const std::string& owner, const std::string& table,
                          std::vector<core::Column>& columns) {
-    // No "AND DATA_DEFAULT IS NOT NULL" here: Oracle forbids referencing a
-    // LONG column in a WHERE clause at all (even just for an IS NULL / IS NOT
-    // NULL check). And no SUBSTR() wrapping the column either: wrapping a
-    // LONG column in SUBSTR() while also using bind variables in the same
-    // statement still raised ORA-00932 on every call in practice, even
-    // without the WHERE-clause reference above -- apparently an OCI/OCCI
-    // quirk with bind variables + a LONG-derived expression together.
-    // DATA_DEFAULT is selected raw instead and read with getString(), which
-    // is the standard, natively-supported way OCCI fetches a LONG column (it
-    // must be the only LONG column selected, which it is here).
-    detail::StatementGuard guard(
-        conn, "SELECT COLUMN_NAME, DATA_DEFAULT FROM ALL_TAB_COLUMNS WHERE OWNER = :1 AND TABLE_NAME = :2");
-    guard.stmt()->setString(1, owner);
-    guard.stmt()->setString(2, table);
+    detail::StatementGuard guard(conn, "SELECT DBMS_METADATA.GET_DDL('TABLE', :1, :2) FROM DUAL");
+    guard.stmt()->setString(1, table);
+    guard.stmt()->setString(2, owner);
     ResultSet* rs = guard.executeQuery();
-    while (rs->next()) {
-        const std::string columnName = rs->getString(1);
-        if (rs->isNull(2)) continue;
-        std::string def = rs->getString(2);
-        if (def.empty()) continue;
-        if (def.size() > 4000) def.resize(4000);
-        for (auto& col : columns) {
-            if (col.name == columnName) {
-                col.defaultValue = def;
-                break;
-            }
+    if (!rs->next()) return;
+
+    Clob clob = rs->getClob(1);
+    const std::string ddl = readClobAsString(clob);
+
+    for (auto& col : columns) {
+        if (auto def = extractColumnDefault(ddl, col.name)) {
+            col.defaultValue = *def;
         }
     }
 }
