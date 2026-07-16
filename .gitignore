@@ -11,3 +11,4 @@ compile_commands.json
 *.db
 !config/*.example.json
 config/scanner.json
+dbscanner-out/
