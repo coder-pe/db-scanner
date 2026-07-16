@@ -25,5 +25,6 @@ if(DBSCANNER_ORACLE_AVAILABLE)
     target_link_libraries(dbscanner_db_oracle PUBLIC
         dbscanner_db_iface
         Oracle::OCCI
+        spdlog::spdlog
     )
 endif()

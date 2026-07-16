@@ -1,6 +1,8 @@
 #pragma once
 
+#include <stdexcept>
 #include <string>
+#include <utility>
 
 #include <occi.h>
 
@@ -36,5 +38,20 @@ private:
     oracle::occi::Statement* stmt_ = nullptr;
     oracle::occi::ResultSet* rs_ = nullptr;
 };
+
+// Runs fn(), and on any failure rethrows a std::runtime_error prefixed with
+// step (e.g. "fetchPrimaryKey", "listDeclaredForeignKeys") so error logs say
+// which specific data-dictionary query failed, not just which table -- OCCI's
+// oracle::occi::SQLException::what() alone gives no clue which of several
+// queries against a table raised it.
+template <typename Fn>
+auto withStep(const char* step, Fn&& fn) -> decltype(fn()) {
+    try {
+        return fn();
+    } catch (const std::exception& e) {
+        // Covers oracle::occi::SQLException too (it derives from std::exception).
+        throw std::runtime_error(std::string("[") + step + "] " + e.what());
+    }
+}
 
 }  // namespace dbscanner::db::detail

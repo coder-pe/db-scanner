@@ -61,7 +61,7 @@ core::ConsistencyFinding OracleConsistencyChecker::checkOrphans(const core::Rela
 
     const std::string whereClause = buildAntiJoinWhere(relationship);
 
-    {
+    detail::withStep("countOrphans", [&] {
         const std::string countSql =
             "SELECT COUNT(*) FROM " + quoteIdent(relationship.childTable) + " c WHERE " + whereClause;
         detail::StatementGuard guard(c, countSql);
@@ -69,28 +69,30 @@ core::ConsistencyFinding OracleConsistencyChecker::checkOrphans(const core::Rela
         if (rs->next()) {
             finding.orphanCount = static_cast<int64_t>(rs->getDouble(1));
         }
-    }
+    });
 
     if (finding.orphanCount > 0 && sampleLimit > 0) {
-        std::string selectCols;
-        for (std::size_t i = 0; i < relationship.childColumns.size(); ++i) {
-            if (i > 0) selectCols += ", ";
-            selectCols += "c." + quoteIdent(relationship.childColumns[i]);
-        }
-        const std::string sampleSql = "SELECT " + selectCols + " FROM " +
-                                       quoteIdent(relationship.childTable) + " c WHERE " + whereClause +
-                                       " FETCH FIRST :1 ROWS ONLY";
-        detail::StatementGuard guard(c, sampleSql);
-        guard.stmt()->setInt(1, sampleLimit);
-        ResultSet* rs = guard.executeQuery();
-        while (rs->next()) {
-            std::vector<std::string> row;
-            row.reserve(relationship.childColumns.size());
+        detail::withStep("sampleOrphans", [&] {
+            std::string selectCols;
             for (std::size_t i = 0; i < relationship.childColumns.size(); ++i) {
-                row.push_back(rs->getString(static_cast<int>(i) + 1));
+                if (i > 0) selectCols += ", ";
+                selectCols += "c." + quoteIdent(relationship.childColumns[i]);
             }
-            finding.sampleKeys.push_back(std::move(row));
-        }
+            const std::string sampleSql = "SELECT " + selectCols + " FROM " +
+                                           quoteIdent(relationship.childTable) + " c WHERE " + whereClause +
+                                           " FETCH FIRST :1 ROWS ONLY";
+            detail::StatementGuard guard(c, sampleSql);
+            guard.stmt()->setInt(1, sampleLimit);
+            ResultSet* rs = guard.executeQuery();
+            while (rs->next()) {
+                std::vector<std::string> row;
+                row.reserve(relationship.childColumns.size());
+                for (std::size_t i = 0; i < relationship.childColumns.size(); ++i) {
+                    row.push_back(rs->getString(static_cast<int>(i) + 1));
+                }
+                finding.sampleKeys.push_back(std::move(row));
+            }
+        });
     }
 
     return finding;

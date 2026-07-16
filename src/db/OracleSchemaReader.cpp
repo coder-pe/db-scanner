@@ -3,6 +3,8 @@
 #include <algorithm>
 #include <map>
 
+#include <spdlog/spdlog.h>
+
 #include "db/OracleStatementGuard.hpp"
 
 using namespace oracle::occi;
@@ -54,20 +56,25 @@ void fetchDefaultValues(Connection* conn, const std::string& owner, const std::s
                          std::vector<core::Column>& columns) {
     // No "AND DATA_DEFAULT IS NOT NULL" here: Oracle forbids referencing a
     // LONG column in a WHERE clause at all (even just for an IS NULL / IS NOT
-    // NULL check), which raised ORA-00932 on every single call regardless of
-    // table content. NULL/empty defaults are filtered out client-side below
-    // instead.
-    detail::StatementGuard guard(conn,
-                                  "SELECT COLUMN_NAME, SUBSTR(DATA_DEFAULT, 1, 4000) FROM ALL_TAB_COLUMNS "
-                                  "WHERE OWNER = :1 AND TABLE_NAME = :2");
+    // NULL check). And no SUBSTR() wrapping the column either: wrapping a
+    // LONG column in SUBSTR() while also using bind variables in the same
+    // statement still raised ORA-00932 on every call in practice, even
+    // without the WHERE-clause reference above -- apparently an OCI/OCCI
+    // quirk with bind variables + a LONG-derived expression together.
+    // DATA_DEFAULT is selected raw instead and read with getString(), which
+    // is the standard, natively-supported way OCCI fetches a LONG column (it
+    // must be the only LONG column selected, which it is here).
+    detail::StatementGuard guard(
+        conn, "SELECT COLUMN_NAME, DATA_DEFAULT FROM ALL_TAB_COLUMNS WHERE OWNER = :1 AND TABLE_NAME = :2");
     guard.stmt()->setString(1, owner);
     guard.stmt()->setString(2, table);
     ResultSet* rs = guard.executeQuery();
     while (rs->next()) {
         const std::string columnName = rs->getString(1);
         if (rs->isNull(2)) continue;
-        const std::string def = rs->getString(2);
+        std::string def = rs->getString(2);
         if (def.empty()) continue;
+        if (def.size() > 4000) def.resize(4000);
         for (auto& col : columns) {
             if (col.name == columnName) {
                 col.defaultValue = def;
@@ -224,20 +231,22 @@ OracleSchemaReader::OracleSchemaReader(OracleConnectionPool& pool, std::string s
     : pool_(pool), schemaOwner_(std::move(schemaOwner)) {}
 
 std::vector<std::string> OracleSchemaReader::listTableNames() {
-    auto conn = pool_.acquire();
-    // ALL_TABLES has no LONG column, so ORDER BY here is safe (and this
-    // query already succeeds in practice, unlike the ones against
-    // ALL_TAB_COLUMNS/ALL_CONSTRAINTS/ALL_INDEXES above).
-    detail::StatementGuard guard(conn.get(),
-                                  "SELECT TABLE_NAME FROM ALL_TABLES WHERE OWNER = :1 ORDER BY TABLE_NAME");
-    guard.stmt()->setString(1, schemaOwner_);
-    ResultSet* rs = guard.executeQuery();
+    return detail::withStep("listTableNames", [&] {
+        auto conn = pool_.acquire();
+        // ALL_TABLES has no LONG column, so ORDER BY here is safe (and this
+        // query already succeeds in practice, unlike the ones against
+        // ALL_TAB_COLUMNS/ALL_CONSTRAINTS/ALL_INDEXES above).
+        detail::StatementGuard guard(
+            conn.get(), "SELECT TABLE_NAME FROM ALL_TABLES WHERE OWNER = :1 ORDER BY TABLE_NAME");
+        guard.stmt()->setString(1, schemaOwner_);
+        ResultSet* rs = guard.executeQuery();
 
-    std::vector<std::string> names;
-    while (rs->next()) {
-        names.push_back(rs->getString(1));
-    }
-    return names;
+        std::vector<std::string> names;
+        while (rs->next()) {
+            names.push_back(rs->getString(1));
+        }
+        return names;
+    });
 }
 
 core::TableInfo OracleSchemaReader::readTable(const std::string& tableName) {
@@ -247,17 +256,34 @@ core::TableInfo OracleSchemaReader::readTable(const std::string& tableName) {
     core::TableInfo info;
     info.owner = schemaOwner_;
     info.name = tableName;
-    info.columns = fetchColumns(c, schemaOwner_, tableName);
-    fetchDefaultValues(c, schemaOwner_, tableName, info.columns);
-    fetchComments(c, schemaOwner_, tableName, info);
-    info.primaryKey = fetchPrimaryKey(c, schemaOwner_, tableName);
-    info.uniqueKeys = fetchUniqueKeys(c, schemaOwner_, tableName);
-    info.indexes = fetchIndexes(c, schemaOwner_, tableName);
-    info.approxRowCount = fetchApproxRowCount(c, schemaOwner_, tableName);
+    info.columns =
+        detail::withStep("fetchColumns", [&] { return fetchColumns(c, schemaOwner_, tableName); });
+    try {
+        detail::withStep("fetchDefaultValues",
+                          [&] { fetchDefaultValues(c, schemaOwner_, tableName, info.columns); });
+    } catch (const std::exception& e) {
+        // Column default values are cosmetic metadata, not core to structure/
+        // relationship/consistency scanning -- don't let a LONG-column quirk
+        // on this one query abort discovery for the whole table.
+        spdlog::warn("could not fetch default values for table {}: {}", tableName, e.what());
+    }
+    detail::withStep("fetchComments", [&] { fetchComments(c, schemaOwner_, tableName, info); });
+    info.primaryKey =
+        detail::withStep("fetchPrimaryKey", [&] { return fetchPrimaryKey(c, schemaOwner_, tableName); });
+    info.uniqueKeys =
+        detail::withStep("fetchUniqueKeys", [&] { return fetchUniqueKeys(c, schemaOwner_, tableName); });
+    info.indexes =
+        detail::withStep("fetchIndexes", [&] { return fetchIndexes(c, schemaOwner_, tableName); });
+    info.approxRowCount = detail::withStep(
+        "fetchApproxRowCount", [&] { return fetchApproxRowCount(c, schemaOwner_, tableName); });
     return info;
 }
 
 std::vector<core::Relationship> OracleSchemaReader::listDeclaredForeignKeys() {
+    return detail::withStep("listDeclaredForeignKeys", [&] { return listDeclaredForeignKeysImpl(); });
+}
+
+std::vector<core::Relationship> OracleSchemaReader::listDeclaredForeignKeysImpl() {
     auto conn = pool_.acquire();
     detail::StatementGuard guard(conn.get(), R"(
         SELECT ac.CONSTRAINT_NAME, ac.TABLE_NAME AS CHILD_TABLE, acc.COLUMN_NAME AS CHILD_COLUMN,

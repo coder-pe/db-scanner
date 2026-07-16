@@ -20,6 +20,8 @@ public:
     std::vector<core::Relationship> listDeclaredForeignKeys() override;
 
 private:
+    std::vector<core::Relationship> listDeclaredForeignKeysImpl();
+
     OracleConnectionPool& pool_;
     std::string schemaOwner_;
 };
